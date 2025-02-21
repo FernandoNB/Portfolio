@@ -1,0 +1,362 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilização da seção de projetos */
+.projetos {
+    background-color:  #29293d;/* Cor de fundo */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.projetos h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.projetos h2 i {
+    font-size: 2.5rem;
+    color: #ffcc00;
+}
+
+.projetos .tecnologia {
+    color: #007BFF; /* Cor para "Tecnologia" */
+    text-transform: none; /* Remove a transformação para maiúsculas */
+}
+
+.projetos .dados {
+    color: #FF4500; /* Cor para "Dados" */
+}
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto-card {
+    background: #29293d; /* Fundo escuro diferenciado */
+    width: 30%;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.projeto-card:hover {
+    transform: scale(1.05);
+}
+
+.projeto-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.projeto-info {
+    padding: 15px;
+}
+
+.projeto-info h3 {
+    color: #ffcc00;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.projeto-info p {
+    font-size: 1em;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.projeto-info .btn {
+    background: #ffcc00;
+    color: #421cecf5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.projeto-info .btn:hover {
+    background: #ffdd44;
+}
+
+/* Seções adicionais do CSS */
+
+/* Estilização geral da seção */
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projeto {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.projeto h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.viewall {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37;
+}
+
+/* Estilização geral da seção */
+.projetos-container {
+    background: #421cecf5; /* Cor base */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Estilização do título */
+.projetos-container .heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Ícone ao lado do título */
+.heading i {
+    font-size: 2.5rem;
+    color: #ffcc00;
+}
+
+/* Destaque no "Automação" */
+.heading span {
+    color: #ffcc00;
+}
+
+/* Layout flexível para os projetos */
+#projetos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilização dos cards de projeto */
+.projeto {
+    background: #29293d; /* Fundo escuro diferenciado */
+    width: 30%;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+}
+
+.projeto h3 {
+    color: #ffcc00;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    #projetos-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projeto {
+        width: 90%;
+    }
+
+    .heading {
+        font-size: 1.8rem;
+    }
+
+    .heading i {
+        font-size: 2rem;
+    }
+}
+
+/* Botões */
+.viewall {
+    margin-top: 20px;
+}
+
+.viewall .btn {
+    background: #ffcc00;
+    color: #421cecf5;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.viewall .btn:hover {
+    background: #ffdd44;
+}
+
+.projetos-container {
+    background-color: #421cecf5; /* Cor de fundo */
+    padding: 50px 20px; /* Espaçamento */
+    text-align: center; /* Centraliza o conteúdo */
+    position: relative;
+}
+
+.iot {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.iot span {
+    color: #ffcc00; /* Cor do span */
+}
+
+.iot i {
+    font-size: 32px;
+}
+
+.viewal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%; /* Garante que ocupe toda a largura */
+}
+
+#verTodosProjetos {
+    background-color: #ffcc00; /* Cor de fundo amarelo */
+    color: #421cecf5; /* Texto na cor principal */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#verTodosProjetos:hover {
+    background-color: #ffb300; /* Tom mais escuro ao passar o mouse */
+    transform: scale(1.05);
+}
+
+#verTodosProjetos:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .viewal {
+        flex-direction: column;
+    }
+
+    #verTodosProjetos {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%; /* Deixa o botão mais largo em telas menores */
+    }
+}

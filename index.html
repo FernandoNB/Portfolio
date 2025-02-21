@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8MD64STSGH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-8MD64STSGH");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Fernando, portfólio, desenvolvedor sistemas embarcados, Iot, Automação Industrial, site de portfólio, portfólio pessoal"
+    />
+    <meta
+      name="description"
+      content="Bem-vindo portfólio de Fernando, desenvolvedor sistemas embarcados, Iot, Automação Industrial, site de portfólio, portfólio pessoal"
+    />
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link
+      id="favicon"
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-png"
+    />
+    <title>Portfólio | Fernando N. Batista</title>
+  </head>
+  <body oncontextmenu="return false">
+    <!-- Barra de navegação -->
+    <header>
+      <a href="/" class="logo">Fernando N. Batista</a>
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Iot e Automação</a></li>
+          <li><a href="#work">Trabalhos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Fim da barra de navegação -->
+
+    <!-- Seção hero -->
+    <section class="home" id="home">
+      <video autoplay muted loop id="bg-video">
+        <source src="./assets/video/test.mp4" type="video/mp4" />
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+      <div class="content">
+        <h2>
+          Bem-vindo,<br />
+          Sou Fernando<span></span>
+        </h2>
+        <p><span class="typing-text"></span></p>
+        <a href="#about" class="btn"
+          ><span>Sobre Mim</span><i class="fas fa-arrow-circle-down"></i
+        ></a>
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                class="linktree"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/fernandonascimentobatista/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com/FernandoNB"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          draggable="false"
+          class="tilt"
+          src="./assets/images/hero.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- Fim da seção hero -->
+
+    <!-- Seção sobre -->
+    <section class="about" id="about">
+      <h2 class="heading"><i class="fas fa-user-alt"></i> Sobre Mim</h2>
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilt"
+            src="./assets/images/fernando.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>Fernando N. Batista</h3>
+          <span class="tag">Técnico em Automação industrial</span>
+          <p>
+            Com formação técnica em automação industrial e estudante de
+            engenharia da computação, meu foco está em IoT e Automação 4.0.
+            Busco aplicar tecnologias avançadas para melhorar processos
+            industriais e criar soluções inovadoras.
+          </p>
+          <div class="box-container">
+            <div class="box">
+              <p><span>email:</span> pronegocios13@gmail.com</p>
+              <p><span>localização:</span> Jundiai, Itatiba SP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fim da seção sobre -->
+
+    <!-- Seção habilidades -->
+    <section class="projetos-container" id="projetos">
+      <h2 class="iot">
+        <i class="fas fa-laptop-code"></i> Tecnologia & <span>Automação</span>
+      </h2>
+
+      <div class="container">
+        <div class="row" id="projetos-lista">
+          <!-- Projeto 1 -->
+          <div class="projeto">
+            <h3>Visão Computacional na Indústria</h3>
+            <p>Explorando o uso da ESP32 Cam para aplicações industriais.</p>
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/aXr6jBIEo64?si=a5Gprja3XwDHdW-8"
+                title="IoT e Automação com ESP32 Cam | Visão Computacional na Indústria"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="projeto">
+            <h3>Gerenciador de Inspeções com Google Sheets</h3>
+            <p>
+              Automação de inspeções e armazenamento de dados em tempo real.
+            </p>
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/U6iJ5oG-tz0"
+                title="Gerenciador de inspeções e dados com Google Sheets"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="projeto">
+            <h3>Monitoramento de Falhas e Partidas</h3>
+            <p>Como configurar e monitorar falta de fase de forma eficiente.</p>
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/dPv853WLg8c?si=zi54HF7pavq4j3ao"
+                title="Configuração de partida com monitoramento de falhas"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="viewal">
+        <button id="verTodosProjetos" class="btn btn-primary">Ver Todos</button>
+        <button
+          id="fecharProjetos"
+          class="btn btn-danger"
+          style="display: none"
+        >
+          Fechar
+        </button>
+      </div>
+    </section>
+
+    <!-- Fim da seção habilidades -->
+
+    <!-- Seção de vídeos -->
+    <section class="projetos">
+      <h2 class="iot">
+        <i class="fas fa-laptop-code"></i> Tecnologia & <span>Dados</span>
+      </h2>
+      <div class="projetos-container" style="background-color: #29293d">
+        <div class="projeto-card">
+          <img
+            src="/meu-portfolio-main/assets/images/analise dados extrusora.png"
+            alt="Projeto de Análise de Dados"
+          />
+          <div class="projeto-info">
+            <h3>Projeto de Análise de Dados e Monitoramento</h3>
+            <p>
+              <strong>Principais recursos:</strong><br />
+              ✅ Acesso seguro com autenticação<br />
+              ✅ Proteção e privacidade dos dados<br />
+              ✅ Banco de dados NoSQL para alta performance
+            </p>
+            <a
+              href="https://coconoth.github.io/Dashboard/"
+              class="btn"
+              target="_blank"
+              >Ver Previa</a
+            >
+          </div>
+        </div>
+
+        <div class="projeto-card">
+          <img src="/meu-portfolio-main/assets/images/Projectflow.png" alt="Projectflow" />
+          <div class="projeto-info">
+            <h3>Gerenciamento de projetos</h3>
+            <p>
+              ✅Automação de alertas
+              ✅Análises de produtividade
+              ✅Otimizar ofluxo de trabalho
+              ✅ Maior eficiência na gestão de projetos.
+              ✅Redução de atrasos com previsões inteligentes.
+              ✅ Comunicação mais fluida entre membros da equipe.
+            </p>
+            <a href="https://coconoth.github.io/ProjectFlow/"
+            class="btn"
+            target="_blank"
+            >Ver Previa</a</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fim da seção de vídeos -->
+
+    <!-- Seção de rodapé -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Portifólio Fernando N. Batista</h3>
+        </div>
+        <div class="box">
+          <h3>Links Rápidos</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> Início</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> Sobre</a>
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right"></i> Habilidades</a
+          >
+        </div>
+        <div class="box">
+          <h3>Informações de Contato</h3>
+          <p><i class="fas fa-phone"></i> ***********</p>
+          <p><i class="fas fa-envelope"></i> pronegoci****</p>
+          <p><i class="fas fa-map-marked-alt"></i> Itatiba, Jundiai - SP</p>
+          <div class="share">
+            <a
+              href="github*****"
+              target="_blank"
+              class="fab fa-github"
+              aria-label="GitHub"
+            ></a>
+            <a
+              href="mailto:pronegoci******"
+              class="fas fa-envelope"
+              aria-label="Mail"
+            ></a>
+          </div>
+        </div>
+      </div>
+      <h1 class="credit">
+        Todos os direitos reservados! ©
+        <i class="fa fa-heart pulse"></i> Fernando N. Batista
+      </h1>
+    </section>
+    <!-- Fim da seção de rodapé -->
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/meu-portfolio-main/assets/css/styles.css" />
+
+    <!-- Botão de rolar para o topo -->
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+    <!-- Fim do botão de rolar para o topo -->
+  </body>
+</html>
